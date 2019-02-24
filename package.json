@@ -1,0 +1,29 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "description": "## Overview In our Developer Center, we have complete [guides](https://developers.docusign.com/esign-rest-api/guides), [code examples](https://developers.docusign.com/esign-rest-api/code-examples), and [API reference](https://developers.docusign.com/esign-rest-api/reference). However, we know that at hackathons, you aren't looking for best practices. You just want to get your app working - fast! We've created this readme to get you running in minutes!",
+  "main": "embeddedSigning.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DocuSign-Hackathons/getting-started.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DocuSign-Hackathons/getting-started/issues"
+  },
+  "homepage": "https://github.com/DocuSign-Hackathons/getting-started#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "docusign-esign": "^4.2.1",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
