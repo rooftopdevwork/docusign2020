@@ -4,11 +4,11 @@ axios({
   method: 'get',
   url: 'http://localhost:3000/',
   data: {
-    "email": "john@email.com",
+    "email": "mario@email.com",
     "name": "John Doe",
-    "recipientId": "1",
-    "clientUserId": "1234"
+    "recipientId": "20",
+    "clientUserId": "1214"
   }
 }).then((res) => {
-  console.log(res.data);
+  console.log(res);
 })
